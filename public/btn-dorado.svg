@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 295.74 44">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_6);
+      }
+    </style>
+    <filter id="drop-shadow-1" x="-8.71" y="-9.03" width="320" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.81" dy="2.81"/>
+      <feGaussianBlur result="blur" stdDeviation="3.75"/>
+      <feFlood flood-color="#1c1c1c" flood-opacity=".6"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Degradado_sin_nombre_6" data-name="Degradado sin nombre 6" x1="0" y1="22" x2="295.74" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#837034"/>
+      <stop offset=".09" stop-color="#907d43"/>
+      <stop offset=".26" stop-color="#b2a26d"/>
+      <stop offset=".49" stop-color="#e9dcaf"/>
+      <stop offset=".52" stop-color="#f1e4b8"/>
+      <stop offset=".58" stop-color="#ecdfb2"/>
+      <stop offset=".67" stop-color="#e1d2a2"/>
+      <stop offset=".76" stop-color="#cebe87"/>
+      <stop offset=".86" stop-color="#b4a162"/>
+      <stop offset=".97" stop-color="#937c33"/>
+      <stop offset="1" stop-color="#897125"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-1">
+    <rect class="cls-2" width="295.74" height="44" rx="7.93" ry="7.93"/>
+  </g>
+</svg>
