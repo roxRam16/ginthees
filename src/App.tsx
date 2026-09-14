@@ -117,6 +117,51 @@ export default function App() {
             />
           </div>
         </section>
+
+        <section
+          id="citricos"
+          className="grid w-full bg-fondo lg:grid-cols-2"
+          aria-label="GINTHEÉS Cítricos"
+        >
+          <div className="relative min-h-[60vh] w-full overflow-hidden lg:min-h-[80vh]">
+            <img
+              src="/botverde.png"
+              alt="Botella verde GINTHEÉS junto a cítricos y una estatua clásica"
+              className="h-full w-full object-cover"
+            />
+          </div>
+
+          <div className="flex flex-col justify-center px-6 py-12 sm:px-10 lg:px-12 xl:px-16">
+            <div className="flex items-center gap-4 sm:gap-6">
+              <div className="flex shrink flex-col items-start">
+                <h2 className="text-dorado-gradiente font-alegreya text-[42px] uppercase leading-[0.9] tracking-[0.02em] sm:text-[56px] lg:text-[50px]">
+                  GINTHEÉS
+                  <span className="block">Cítricos</span>
+                </h2>
+
+                <p className="mt-4 max-w-[220px] font-alegreya text-[11px] uppercase leading-[1.25] tracking-[0.03em] text-texto-cuerpo sm:mt-5 sm:max-w-[240px] sm:text-[13px]">
+                  Receta original creada por el maestro destilador.
+                </p>
+
+                <div className="mt-5 sm:mt-6">
+                  <BotonComprar />
+                </div>
+              </div>
+
+              <img
+                src="/botella-verde.svg"
+                alt="Ilustración de una botella verde"
+                className="h-[240px] w-auto shrink-0 sm:h-[300px] lg:h-[280px]"
+              />
+            </div>
+
+            <img
+              src="/pleca-flores.svg"
+              alt="Ornamento floral azul"
+              className="mt-8 h-auto w-full max-w-[520px] sm:mt-10"
+            />
+          </div>
+        </section>
       </main>
     </div>
   );
