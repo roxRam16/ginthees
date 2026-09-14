@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { BotonComprar } from "./components/BotonComprar";
+import { SeccionRecetas } from "./components/SeccionRecetas";
 
 export default function App() {
   return (
@@ -162,6 +163,8 @@ export default function App() {
             />
           </div>
         </section>
+
+        <SeccionRecetas />
       </main>
     </div>
   );
