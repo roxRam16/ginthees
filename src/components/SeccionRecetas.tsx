@@ -87,7 +87,7 @@ function SalesPointCard({ point }: { point: SalesCard }) {
 export function SeccionRecetas() {
   return (
     <section
-      id="recetas-y-puntos-de-venta"
+      id="puntos-de-venta"
       className="relative overflow-hidden bg-[#faf9f6] px-5 py-12 sm:px-8 sm:py-16 lg:px-12"
       aria-label="Recetas y puntos de venta"
     >
